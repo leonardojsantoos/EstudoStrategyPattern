@@ -13,13 +13,9 @@ namespace Strategy.Strategies
         public void AprovarExame(Exame exame)
         {
             if (exame.Descricao.Equals("Sangue", StringComparison.OrdinalIgnoreCase))
-            {
                 Console.WriteLine("Aprovado");
-            }
             else
-            {
                 Console.WriteLine("Reprovado");
-            }
         }
     }
 }
